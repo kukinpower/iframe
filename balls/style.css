@@ -21,3 +21,15 @@ body {
 #main {
     background-color: rgb(182,168,168);
 }
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    background-color: white;
+  }
+  a:visited{
+    color: black;
+  }

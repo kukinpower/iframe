@@ -1,6 +1,7 @@
 .frame1 {
     width: 40%;
     height: 50vh;
+    border: purple 0px solid;
 }
 
 .frame2 {
@@ -8,7 +9,24 @@
     width: 20%;
     height: 90vh;
     margin-top: 5vh;
+    border: purple 0px solid;
 }
 body{
     font-family: monospace;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    background-color: white;
+  }
+  a:visited{
+    color: black;
+  }
+
+  #main {
+    background-color: rgb(182,168,168);
 }
