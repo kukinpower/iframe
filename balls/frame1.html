@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle_blue{
+            background: #0000ff;
+            /*border: 1px solid #0000ff;*/
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            /*top: 50%;*/
+            /*left: 50%;*/
+        }
+        .circle_red{
+            background: #ff0000;
+            /*border: 1px solid #0000ff;*/
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: 30%;
+            left: 80%;
+        }
+        .circle_green{
+            background: #4bff4b;
+            /*border: 1px solid #0000ff;*/
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: 70%;
+            left: 20%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- <button onclick=change()>frame #1</button>-->
+ <div id="c_blue" class="circle_blue" style="top:50%; left:50%" onclick=change_color_and_destroy("#0000ff","c_blue") ></div>
+ <div id="c_red" class="circle_red" onclick=change_color_and_destroy("#ff0000","c_red")></div>
+ <div id="c_green" class="circle_green" onclick=change_color_and_destroy("#4bff4b","c_green")></div>
+</body>
+</html>
