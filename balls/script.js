@@ -1,54 +1,36 @@
-let obj, w = 1, h = 1;
+let obj, w = 1, h = 1, circle, interval_id;
 
 function get_name_and_remove_elem(id_name) {
-    obj = document.getElementById(id_name);
-    console.log(obj.style.width);
-    console.log(obj.style.height);
-    console.log(obj.style.backgroundColor);
-    w = parseInt(obj.style.width, 10);
-    h = parseInt(obj.style.height, 10);
-    console.log(obj);
-    console.log(w);
-    console.log(h);
-    //setTimeout(shrink, 1000);
-    obj.style.backgroundColor = "black";
-    //obj.remove();
+
+    circle.style.height = circle.clientHeight + "px";
+    circle.style.width = circle.clientWidth + "px";
+    h = circle.clientHeight;
+    w = circle.clientWidth;
+    if (h > 0 && w > 0)
+        interval_id = setInterval(shrink, 10);
+    //obj.style.backgroundColor = "black";
+   // obj.remove();
 }
 
 function shrink(){
-        console.log(w);
-        console.log(h);
-        w -= 5;
-        h -= 5;
-        obj.style.width = w + "px";
-        obj.style.height = h + "px";
+    if (h > 0 && w > 0) {
+        console.log(circle.style.height, circle.style.width);
+        w -= 1;
+        h -= 1;
+        console.log(h, w);
+        circle.style.height = h + "px";
+        circle.style.width = w + "px";
+    }
+    else{
+        clearInterval(interval_id);
+    }
+
 }
 
 function change_color_and_destroy(color, id_name) {
-
-    let frm = parent.document.getElementById('changeColor');
+    let frm = parent.document.getElementById('frm');
     frm.style.backgroundColor = color;
-    // id_name.fadeOut("slow");
+    let first = parent.document.getElementById('first');
+    circle = first.contentWindow.document.getElementById(id_name);
     get_name_and_remove_elem(id_name);
 }
-//
-// function change_green(color) {
-//
-//     let frm = parent.document.getElementById('frm');
-//     frm.style.backgroundColor = color;
-//     get_name_and_remove_elem("c_green");
-// }
-//
-// function change_red(color, id_name) {
-//
-//     let frm = parent.document.getElementById('frm');
-//     frm.style.backgroundColor = color;
-//     get_name_and_remove_elem(id_name);
-// }
-//
-// function change_blue(color) {
-//
-//     let frm = parent.document.getElementById('frm');
-//     frm.style.backgroundColor = color;
-//     get_name_and_remove_elem("c_blue");
-// }

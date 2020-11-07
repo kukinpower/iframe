@@ -13,9 +13,9 @@
             border-radius: 50%;
             width: 25px;
             height: 25px;
-            position: absolute;
-            /*top: 50%;*/
-            /*left: 50%;*/
+            position: fixed;
+            top: 50%;
+            left: 50%;
         }
         .circle_red{
             background: #ff0000;
@@ -23,7 +23,7 @@
             border-radius: 50%;
             width: 25px;
             height: 25px;
-            position: absolute;
+            position: fixed;
             top: 30%;
             left: 80%;
         }
@@ -33,16 +33,14 @@
             border-radius: 50%;
             width: 25px;
             height: 25px;
-            position: absolute;
+            position: fixed;
             top: 70%;
             left: 20%;
         }
     </style>
 </head>
 <body>
-
-<!-- <button onclick=change()>frame #1</button>-->
- <div id="c_blue" class="circle_blue" style="top:50%; left:50%" onclick=change_color_and_destroy("#0000ff","c_blue") ></div>
+ <div id="c_blue" class="circle_blue"  onclick=change_color_and_destroy("#0000ff","c_blue") ></div>
  <div id="c_red" class="circle_red" onclick=change_color_and_destroy("#ff0000","c_red")></div>
  <div id="c_green" class="circle_green" onclick=change_color_and_destroy("#4bff4b","c_green")></div>
 </body>
