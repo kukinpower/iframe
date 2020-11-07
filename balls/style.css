@@ -1,0 +1,23 @@
+.frame1 {
+    width: 60%;
+    height: 50vh;
+    border: purple 0px solid;
+    background-color: rgb(153, 193, 217)
+}
+
+.frame2 {
+    float: right;
+    width: 20%;
+    height: 90vh;
+    margin-top: 5vh;
+    border: purple 0px solid;
+    background-color: rgb(58, 142, 153);
+}
+
+body {
+    font-family: monospace;
+}
+
+#main {
+    background-color: rgb(182,168,168);
+}
