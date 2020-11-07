@@ -1,3 +1,15 @@
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    background-color: white;
+  }
+  a:visited{
+    color: black;
+  }
+
 .frame1 {
     width: 40%;
     height: 50vh;
