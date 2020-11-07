@@ -35,16 +35,6 @@
  body{
      font-family: monospace;
  }
- 
- a {
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-  }
-  a:hover{
-    background-color: white;
-  }
-  a:visited{
-    color: black;
-  }
+
+
  
