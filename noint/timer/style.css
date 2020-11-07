@@ -1,6 +1,6 @@
 body {
 	background : #F7F7F7;
-	font-family: 'Open Sans', sans-serif;
+	font-family:   monospace;
 }
 
 #pic {
@@ -92,4 +92,8 @@ body {
 	margin: auto;
 	margin-top: 10px;
 	width: 300px;
+}
+
+#bg{
+	background-color: rgb(182, 168, 168);
 }

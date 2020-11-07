@@ -1,14 +1,14 @@
 .frame1 {
-    width: 40%;
-    height: 50vh;
+    width: 80%;
+    height: 35vh;
     border: purple 0px solid;
     background-color: rgb(195, 96, 146)
 }
 
 .frame2 {
     float: right;
-    width: 20%;
-    height: 90vh;
+    width: 65%;
+    height: 55vh;
     margin-top: 5vh;
     border: purple 0px solid;
     background-color: rgb(58, 142, 153);
@@ -19,18 +19,19 @@
     width: 45%;
     height: 55vh;
 }
-
- .class{
+ 
+ #first{
     display: none;
  }
+
  #second{
      display: none;
  }
 
  #main{
-     background-color: rgb(182, 168, 168);
- }
+    background-color: rgb(182, 168, 168);
+}
 
- body{
-     font-family: monospace;
- }
+body{
+    font-family: monospace;
+}
