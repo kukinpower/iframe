@@ -2,7 +2,7 @@
     width: 40%;
     height: 50vh;
     border: purple 1px solid;
-    background-color: mediumpurple;
+    background-color: rgb(195, 96, 146)
 }
 
 .frame2 {
@@ -11,7 +11,7 @@
     height: 90vh;
     margin-top: 5vh;
     border: purple 1px solid;
-    background-color: grey;
+    background-color: rgb(58, 142, 153);
 }
 
 .frame3
@@ -19,3 +19,11 @@
     width: 45%;
     height: 55vh;
 }
+ 
+ #first{
+    display: none;
+ }
+
+ #second{
+     display: none;
+ }
