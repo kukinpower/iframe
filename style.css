@@ -19,10 +19,11 @@
     width: 45%;
     height: 55vh;
 }
-
- .class{
+ 
+ #first{
     display: none;
  }
+
  #second{
      display: none;
  }
