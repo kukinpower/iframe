@@ -1,0 +1,15 @@
+.frame1 {
+    width: 40%;
+    height: 50vh;
+    border: purple 1px solid;
+    background-color: mediumpurple;
+}
+
+.frame2 {
+    float: right;
+    width: 20%;
+    height: 90vh;
+    margin-top: 5vh;
+    border: purple 1px solid;
+    background-color: mediumpurple;
+}
