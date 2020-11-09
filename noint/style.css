@@ -1,0 +1,51 @@
+.frame1 {
+    width: 80%;
+    height: 33vh;
+    border: purple 0px solid;
+    background-color: rgb(195, 96, 146)
+}
+
+.frame2 {
+    float: right;
+    width: 50%;
+    height: 60vh;
+    border: purple 0px solid;
+    background-color: rgb(58, 142, 153);
+    display: inline-block;
+}
+
+.frame3
+{
+    border: purple 0px solid;
+    width: 40%;
+    height: 55vh;
+    display: inline-block;
+}
+ 
+ #first{
+    display: none;
+ }
+
+ #second{
+     display: none;
+ }
+
+ #main{
+    background-color: rgb(182, 168, 168);
+}
+
+body{
+    font-family: monospace;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    background-color: white;
+  }
+  a:visited{
+    color: black;
+  }

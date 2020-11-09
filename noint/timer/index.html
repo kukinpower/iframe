@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Spirit</title>
+		<link rel="shortcut icon" href="images/4.png" >
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body id="bg">
+
+	<div id="main">
+		<div id="phase1" >
+			<div id="description">
+	            <span> How well do you know Periodic Table?
+								 By pressing the START button you will start the timer.
+								 You have 30 sec to enter as many elements as you know!
+	            </span>
+	        </div>
+
+			<button class="btn" id="startBtn">START</button>
+		</div>
+		<div id="phase2" class="hidden">
+			<div id="timerWrap">
+				<span id="timer"></span>
+			</div>
+			<div id="questionWrap">
+				<span id="question"></span>
+			</div>
+			<div id="answerWrap">
+				<input type="text" id="answer">
+			</div>
+		</div>
+		<div id="phase3" class="hidden">
+			<div id="resultWrap">
+				<span id="result"></span>
+			</div>
+			<div id="pictureWrap">
+				<img id="picture">
+			</div>
+			<button class="btn" id="restartBtn">RESTART</button>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
