@@ -21,7 +21,7 @@ Most of our iframes are playable. Some of them interact with each other. Owing t
 
 Here's a few ideas:
 
-Give user an opportunity to solve some simple puzzle. To get some promocode or gift from a sponsor. For example this one: https://kukinpower.github.io/iframe/index.html.
-Have fun with interactive elements like these: https://kukinpower.github.io/iframe/balls/index.html
-Some thing can follow the cursor to attract user's attention: https://kukinpower.github.io/iframe/noint/index.html . Chemistry test-game: creative and smart way of integrating discounts in banner ads
-Interactive elements as flashlight: https://kukinpower.github.io/iframe/flashlight/index.html
+Give user an opportunity to solve some simple puzzle. To get some promocode or gift from a sponsor. For example this one: https://kukinpower.github.io/junction-connected-2020/index.html.
+Have fun with interactive elements like these: https://kukinpower.github.io/junction-connected-2020/balls/index.html
+Some thing can follow the cursor to attract user's attention: https://kukinpower.github.io/junction-connected-2020/noint/index.html . Chemistry test-game: creative and smart way of integrating discounts in banner ads
+Interactive elements as flashlight: https://kukinpower.github.io/junction-connected-2020/flashlight/index.html
