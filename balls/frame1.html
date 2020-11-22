@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .circle_blue{
+        #circle_blue{
             background: rgb(58, 142, 153);
             /*border: 1px solid #0000ff;*/
             border-radius: 50%;
@@ -17,28 +17,31 @@
             position: absolute;
             top: 70%;
             left: 70%;
+            transform: translate(-50%, -50%);
         }
-        .circle_blue_2{
+        #circle_blue_2{
             background: rgb(58, 142, 153);
             /*border: 1px solid #0000ff;*/
             border-radius: 50%;
             width: 300px;
             height: 300px;
             position: absolute;
-            top: 2%;
-            left: 2%;
+            top: 10%;
+            left: 10%;
+            transform: translate(-50%, -50%);
         }
-        .circle_red{
+        #circle_red{
             background: #fdb25f;
             /*border: 1px solid #0000ff;*/
             border-radius: 50%;
             position: absolute;
             width: 350px;
             height: 350px;
-            top: 7%;
-            left: 60%;
+            top: 30%;
+            left: 80%;
+            transform: translate(-50%, -50%);
         }
-        .circle_red_2{
+        #circle_red_2{
             background: #fdb25f;
             /*border: 1px solid #0000ff;*/
             border-radius: 50%;
@@ -47,8 +50,9 @@
             height: 250px;
             top: 55%;
             left: 13%;
+            transform: translate(-50%, -50%);
         }
-        .circle_green{
+        #circle_green{
             background: rgb(195, 96, 146);
             /*border: 1px solid #0000ff;*/
             border-radius: 50%;
@@ -57,8 +61,9 @@
             position: absolute;
             top: 50%;
             left: 40%;
+            transform: translate(-50%, -50%);
         }
-        .circle_green_2{
+        #circle_green_2{
             background: rgb(195, 96, 146);
             /*border: 1px solid #0000ff;*/
             border-radius: 50%;
@@ -67,16 +72,17 @@
             position: absolute;
             top: 10%;
             left: 36%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
  <p style="font-size: 170px; text-align:center">advertisement</p>
- <div id="c_blue" class="circle_blue"  onclick=change_color_and_destroy("#3A8E99","c_blue") ></div>
- <div id="c_blue_2" class="circle_blue_2"  onclick=change_color_and_destroy("#3A8E99","c_blue_2") ></div>
- <div id="c_red" class="circle_red" onclick=change_color_and_destroy("#fdb25f","c_red")></div>
- <div id="c_red_2" class="circle_red_2" onclick=change_color_and_destroy("#fdb25f","c_red_2")></div>
- <div id="c_green" class="circle_green" onclick=change_color_and_destroy("#C36092","c_green")></div>
- <div id="c_green_2" class="circle_green_2" onclick=change_color_and_destroy("#C36092","c_green_2")></div>
+ <div id="circle_blue"  onclick=change_color_and_destroy("#3A8E99","circle_blue")></div>
+ <div id="circle_blue_2"  onclick=change_color_and_destroy("#3A8E99","circle_blue_2")></div>
+ <div id="circle_red" onclick=change_color_and_destroy("#fdb25f","circle_red")></div>
+ <div id="circle_red_2" onclick=change_color_and_destroy("#fdb25f","circle_red_2")></div>
+ <div id="circle_green" onclick=change_color_and_destroy("#C36092","circle_green")></div>
+ <div id="circle_green_2" onclick=change_color_and_destroy("#C36092","circle_green_2")></div>
 </body>
 </html>

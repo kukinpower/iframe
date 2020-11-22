@@ -6,6 +6,8 @@ function get_name_and_remove_elem(id_name) {
     circle.style.width = circle.clientWidth + "px";
     h = circle.clientHeight;
     w = circle.clientWidth;
+    l = circle.clientLeft;
+    t = circle.clientTop;
     if (h > 0 && w > 0)
         interval_id = setInterval(shrink, 10);
     //obj.style.backgroundColor = "black";
